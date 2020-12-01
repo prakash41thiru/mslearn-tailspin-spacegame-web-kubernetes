@@ -69,7 +69,7 @@ stages:
              inputs: 
               action: createSecret
               secretName: $(imagePullSecret)
-              dockerRegistryEndpoint: 'tailspinspacegame10040.azurecr.io'
+              dockerRegistryEndpoint: 'tailspinspacegame10040'
               kubernetesServiceConnection: 'Kubernetes Cluster Connection'
            
            - task: KubernetesManifest@0
